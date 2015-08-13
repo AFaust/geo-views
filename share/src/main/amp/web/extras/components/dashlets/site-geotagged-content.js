@@ -176,9 +176,9 @@ if (typeof Extras.dashlet == "undefined" || !Extras.dashlet)
           * 
           * @property leafletTileUrl
           * @type string
-          * @default "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          * @default "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           */
-         leafletTileUrl: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+         leafletTileUrl: "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       },
 
       /**

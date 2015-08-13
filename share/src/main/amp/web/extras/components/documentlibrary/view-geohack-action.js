@@ -26,7 +26,7 @@
           {
               lat = asset.node.properties["cm:latitude"];
               lon = asset.node.properties["cm:longitude"];
-              window.open("http://toolserver.org/~geohack/geohack.php?params=" + lat + "_N_" + lon + "_E", "_blank");
+              window.open("https://toolserver.org/~geohack/geohack.php?params=" + lat + "_N_" + lon + "_E", "_blank");
           }
           else
           {

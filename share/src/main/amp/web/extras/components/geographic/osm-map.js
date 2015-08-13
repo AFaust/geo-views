@@ -87,7 +87,7 @@ if (typeof Extras.component == "undefined" || !Extras.component)
           * @property leafletTileUrl
           * @type string
           */
-         leafletTileUrl: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+         leafletTileUrl: "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
          
          /**
           * Default map zoom

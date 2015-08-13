@@ -170,7 +170,7 @@ if (typeof Extras == "undefined" || !Extras)
             // Async load the Google Maps API. Need to do this, as it breaks the YUI Loader otherwise
             var script = document.createElement("script");
             script.type = "text/javascript";
-            script.src = "http://maps.google.com/maps/api/js?sensor=false&callback=Extras.GeotagActionCallback";
+            script.src = window.protocol + "://maps.google.com/maps/api/js?sensor=false&callback=Extras.GeotagActionCallback";
             document.body.appendChild(script);
          }
          

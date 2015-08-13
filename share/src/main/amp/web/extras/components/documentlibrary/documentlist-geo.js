@@ -99,7 +99,7 @@ if (typeof Extras == "undefined" || !Extras)
           * @type string
           * @default "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           */
-         leafletTileUrl: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+         leafletTileUrl: "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       },
       
       /**

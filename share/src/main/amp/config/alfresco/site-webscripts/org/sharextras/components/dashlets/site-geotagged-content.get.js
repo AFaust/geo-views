@@ -61,7 +61,7 @@ function main()
       //name: "Extras.dashlet.LeafletSiteGeotaggedContent",
       options: {
          // Use OSM by default for Leaflet tiles
-         leafletTileUrl: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+         leafletTileUrl: "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       }
    };
    
